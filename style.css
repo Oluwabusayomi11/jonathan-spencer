@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Prata&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    background-color: black;
+    color: rgb(202, 199, 199);
+    text-align: left;
+}
+
+.menu-btn{ 
+    display: none;
+
+}
+h1, h2, h3, h4{
+    font-family: 'Prata', serif;
+}
+p{
+    font-family: 'Inter', sans-serif;
+    color: grey;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+
+                 /* header */
+
+header{
+    position: relative;
+    overflow: hidden;
+    padding: 10px 100px;
+}
+h3, a{
+    display: inline-block;
+}
+h3{
+    font-size: small;
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    color: grey;
+    margin: 15px;
+    font-size: small;
+    font-family: 'Inter', sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+    color:rgb(247, 247, 100)
+}
+.centered a{
+    position:relative;
+    left:15%;
+}
+.right{
+    position: relative;
+    left: 50%;
+} 
+button{
+    background-color: rgb(247, 247, 100);
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover{
+    padding: 15px 25px;
+    transition: 0.5s;
+}
+
+.about{
+    margin: 30px 0 50px;
+    padding: 0 100px;
+}
+h1{
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.companies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.site{
+    padding: 0 100px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-areas: 
+    'a b'
+    'c d'
+    'e f'
+    ;
+    
+}
+.spense{
+    grid-area: a;
+    margin-bottom: 20px;
+    margin-right: 60px; 
+}
+.yelp{
+    grid-area: b;
+    margin-bottom: 20px;
+}
+.sp{
+    font-size: 30px;
+    font-weight: 400;
+    grid-area: c;
+    margin-bottom: 10px;
+}
+.yc{
+    font-size: 30px;
+    font-weight: 400;
+    grid-area: d;
+    margin-bottom: 10px;
+}
+.es{
+    font-size: 18px;
+    font-weight: 250;
+    line-height: 20px;
+    grid-area: e;
+}
+.amp{
+    font-size: 18px;
+    font-weight: 250;
+    line-height: 20px;
+    grid-area: f;
+}
+
+
+.found{
+    background-color: rgb(32, 32, 32);
+    padding: 40px 100px;
+    display: flex;
+    gap: 200px;
+}
+.found h2{
+    font-weight: 400 ;
+    margin-bottom: 20px;
+}
+.found p{
+    margin-bottom: 20px;
+}
+.interest{
+    padding: 50px 100px;
+}
+.interest button{
+    margin-top: 10px;
+}
+.contact{
+    padding: 10px 100px;
+    background-color: rgb(32, 32, 32);
+}
+.contact div{
+    display: inline-block;
+}
+ul,li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 5px;  
+}
+.move{
+    position: absolute;
+    left: 85%;
+}
